@@ -24,10 +24,11 @@ function App() {
                   <Chat />
                 </Route>
                 <Route path="/">
-                  <h1>Welcome</h1>
+                  <div className="alternative_chat">
+                    <h1>Welcome to Leonardo Digiorgio HQ</h1>
+                  </div>
                 </Route>
               </Switch>
-              {/* React-router --> Chat screen */}
             </div>
           </>
         )}
